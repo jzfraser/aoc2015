@@ -11,7 +11,7 @@ def count(s: str):
     return (c_code, c_mem, c_encode)
 
 
-f = open('day8input.txt')
+f = open('../inputs/day8input.txt')
 strings = []
 while True:
     string = f.readline().strip()

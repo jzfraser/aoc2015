@@ -1,7 +1,7 @@
 from sys import maxsize
 from itertools import permutations
 
-f = open("day9input.txt")
+f = open("../inputs/day9input.txt")
 paths = f.readlines()
 
 graph = {}

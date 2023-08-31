@@ -33,7 +33,7 @@ def part1():
 
     nice_words = 0
 
-    f = open("day5input.txt")
+    f = open("../inputs/day5input.txt")
     words = f.readlines()
     for word in words:
         stripped = word.strip()
@@ -73,7 +73,7 @@ def is_nice(s):
 # words = ["qjhvhtzxzqqjkmpb", "xxyxx", "uurcxstgmygtbstg", "ieodomkazucvgmuy"]
 
 nice_words = 0
-f = open("day5input.txt")
+f = open("../inputs/day5input.txt")
 words = f.readlines()
 for word in words:
     stripped = word.strip()

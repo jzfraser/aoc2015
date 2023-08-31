@@ -1,5 +1,5 @@
 def main():
-    f = open("day3input.txt")
+    f = open("../inputs/day3input.txt")
     directns = f.read()
     part1(directns)
     part2(directns)

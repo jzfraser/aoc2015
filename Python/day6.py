@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-f = open("day6input.txt")
+f = open("../inputs/day6input.txt")
 instructions = f.readlines()
 
 

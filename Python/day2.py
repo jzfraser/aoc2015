@@ -3,7 +3,7 @@ def main():
 
 
 def calc_total_amount():
-    f = open("day2input.txt")
+    f = open("../inputs/day2input.txt")
     total_wp = 0
     total_r = 0
     while True:

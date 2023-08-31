@@ -5,7 +5,7 @@ def main():
 
 def part1():
     ans = 0
-    input = open("day1input.txt")
+    input = open("../inputs/day1input.txt")
     directions = input.read()
     for c in directions:
         if c == "(":
@@ -17,7 +17,7 @@ def part1():
 
 def part2():
     ans = 0
-    input = open("day1input.txt")
+    input = open("../inputs/day1input.txt")
     directions = input.read()
     for i, c in enumerate(directions):
         if c == "(":

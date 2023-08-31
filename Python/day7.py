@@ -3,7 +3,7 @@ import numpy as np
 # part 1
 # f = open("day7input.txt")
 # part 2
-f = open("day7input_part2.txt")
+f = open("../inputs/day7input_part2.txt")
 
 instructions = f.readlines()
 signals = {}
