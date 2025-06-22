@@ -1,4 +1,4 @@
-# aoc2015py
+# aoc2015
 
 These are the inputs and solutions for the Advent of Code 2015.
 

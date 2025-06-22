@@ -6,8 +6,6 @@ import (
 	"util"
 )
 
-// a comment
-
 func main() {
 	input := util.GetInput("day1input.txt")
 	// inputString := "(((("
@@ -18,9 +16,10 @@ func main() {
 	for i := 0; i < len(input); i++ {
 		// fmt.Println(string(input[i]))
 		char := string(input[i])
-		if char == "(" {
+		switch char {
+		case "(":
 			floor += 1
-		} else if char == ")" {
+		case ")":
 			floor -= 1
 		}
 
