@@ -5,12 +5,10 @@ import (
 	"slices"
 	"strconv"
 	"strings"
-
-	"util"
 )
 
-func main() {
-	input := util.GetInput("day2input.txt")
+func day2() {
+	input := GetInput("day2input.txt")
 	inputs := strings.Split(string(input), "\n")
 	wrappingPaper := 0
 	ribbon := 0

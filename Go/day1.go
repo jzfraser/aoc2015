@@ -2,18 +2,16 @@ package main
 
 import (
 	"fmt"
-
-	"util"
 )
 
-func main() {
-	input := util.GetInput("day1input.txt")
+func day1() {
+	input := GetInput("day1input.txt")
 	// inputString := "(((("
 	// input := []rune(inputString)
 	floor := 0
 	firstTime := true
 	var wentNegative int
-	for i := 0; i < len(input); i++ {
+	for i := range input {
 		// fmt.Println(string(input[i]))
 		char := string(input[i])
 		switch char {
